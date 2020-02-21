@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="573a2eea-0cfe-4a0d-9b45-fdb1dc3aa618" name="Default Changelist" comment="" />
+    <list default="true" id="573a2eea-0cfe-4a0d-9b45-fdb1dc3aa618" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java-driver-execution-profile.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Insert.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +31,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -38,6 +53,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -57,8 +74,7 @@
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="java-driver-execution-profile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="java-driver-reactive-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -71,8 +87,7 @@
     </configuration>
     <configuration name="Insert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Insert" />
-      <module name="java-driver-execution-profile" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="java-driver-reactive-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -186,25 +201,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="404" y="115" key="#App" timestamp="1582305353623">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="404" y="115" key="#App/0.0.1440.900@0.0.1440.900" timestamp="1582305353623" />
+    <state x="404" y="115" key="#Insert" timestamp="1582304429831">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="404" y="115" key="#Insert/0.0.1440.900@0.0.1440.900" timestamp="1582304429831" />
     <state x="320" y="115" key="#Project_Structure" timestamp="1580233626745">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1580233626745" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1580418354244">
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1582307479308">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1580418354244" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1580418354244">
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1582307479308" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582307811843">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1580418354244" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1580418354243">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582307811843" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582307811842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1580418354243" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1580418354244">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582307811842" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582307811842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1580418354244" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582307811842" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582307811843">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582307811843" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1582303191117">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1582303191117" />
   </component>
 </project>
