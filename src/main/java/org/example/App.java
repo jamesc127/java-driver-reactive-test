@@ -30,23 +30,17 @@ public class App
                 bStmnts.add(query);
             }
             PreparedStatement otherStatement = session.prepare("SELECT clustering1 FROM profile_test.other_test WHERE pkey = ?");
-//            Flux.just(bStmnts.toArray(new BoundStatement[bStmnts.size()]))
-//                    .flatMap(session::executeReactive)
-//                    .doOnNext(rowList::add) //could potentially create a method to make the second call here
-//                    .blockLast(); //or I need to subscribe() here and run the second query
             Flux.just(bStmnts.toArray(new BoundStatement[bStmnts.size()]))
                     .flatMap(session::executeReactive)
                     .subscribe(row -> {
-
-                        System.out.println("entered the subscribe" + );
-
-                        BoundStatement otherBound = otherStatement.bind(row.getInt("clustering1"));
-                        Row otherRow = session.execute(otherBound).one();
-                        rowList.add(otherRow);
+                        System.out.println("entered the subscribe " + row.getInt("clustering1"));
+                        //execute query here
+                        //add result to some array
+                        //return the array from the method
                     });
-            for (Row row : rowList){
-                System.out.println(row.getFormattedContents());
-            }
+//            for (Row row : rowList){
+//                System.out.println(row.getFormattedContents());
+//            }
         }
     }
 }
