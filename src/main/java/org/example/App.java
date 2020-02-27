@@ -1,10 +1,17 @@
 package org.example;
 
+import com.datastax.dse.driver.api.core.cql.reactive.ReactiveResultSet;
+import com.datastax.dse.driver.api.core.cql.reactive.ReactiveRow;
 import com.datastax.oss.driver.api.core.CqlSession;
 import com.datastax.oss.driver.api.core.cql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Stream;
+
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+import reactor.util.context.Context;
 
 public class App 
 {
@@ -29,18 +36,19 @@ public class App
                 BoundStatement query = pStatement.bind(key);
                 bStmnts.add(query);
             }
-            PreparedStatement otherStatement = session.prepare("SELECT clustering1 FROM profile_test.other_test WHERE pkey = ?");
+            PreparedStatement otherStatement = session.prepare("SELECT * FROM profile_test.other_test WHERE pkey = ?");
+            System.out.println("First Flux");
             Flux.just(bStmnts.toArray(new BoundStatement[bStmnts.size()]))
-                    .flatMap(session::executeReactive)
-                    .subscribe(row -> {
-                        System.out.println("entered the subscribe " + row.getInt("clustering1"));
-                        //execute query here
-                        //add result to some array
-                        //return the array from the method
-                    });
-//            for (Row row : rowList){
-//                System.out.println(row.getFormattedContents());
-//            }
+                .flatMap(session::executeReactive)
+                .flatMap(row -> {
+                    System.out.println("This is the after the first executeReactive "+row.getFormattedContents());
+                    return Flux.just("SELECT * FROM profile_test.other_test WHERE pkey = "+row.getInt("clustering1"));
+                })
+                .flatMap(session::executeReactive)
+                .subscribe(row -> {
+                    System.out.println("This is the after the second executeReactive "+row.getFormattedContents());
+                });
+            System.out.println("Second Flux");
         }
     }
 }
