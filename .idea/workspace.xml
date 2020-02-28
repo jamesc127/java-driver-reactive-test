@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="573a2eea-0cfe-4a0d-9b45-fdb1dc3aa618" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
     </list>
@@ -205,13 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582577888673</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="additional flatMap">
+      <created>1582829961978</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582829961978</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments" />
+    <MESSAGE value="additional flatMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="additional flatMap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="404" y="115" key="#App" timestamp="1582305353623">
@@ -230,42 +239,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1582585200937" />
-    <state x="308" y="52" key="CommitChangelistDialog2" timestamp="1582577888420">
+    <state x="308" y="52" key="CommitChangelistDialog2" timestamp="1582829961775">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582577888420" />
+    <state x="308" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582829961775" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1582307479308">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1582307479308" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582829044689">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1582873480882">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582829044689" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582829044688">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582873480882" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1582873480881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582829044688" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582829044687">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582873480881" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1582873480748">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582829044687" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582829044688">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582873480748" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1582873480881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582829044688" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582873480881" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1582303191117">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1582303191117" />
-    <state x="208" y="31" key="SettingsEditor" timestamp="1582308841798">
+    <state x="208" y="31" key="SettingsEditor" timestamp="1582830523180">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582308841798" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582577890583">
+    <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582830523180" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582829963730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582577890583" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582829963730" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582822286775">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

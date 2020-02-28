@@ -6,12 +6,9 @@ import com.datastax.oss.driver.api.core.CqlSession;
 import com.datastax.oss.driver.api.core.cql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Stream;
+import java.util.Objects;
 
 import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
-import reactor.util.context.Context;
 
 public class App 
 {
@@ -36,8 +33,7 @@ public class App
                 BoundStatement query = pStatement.bind(key);
                 bStmnts.add(query);
             }
-            PreparedStatement otherStatement = session.prepare("SELECT * FROM profile_test.other_test WHERE pkey = ?");
-            System.out.println("First Flux");
+
             Flux.just(bStmnts.toArray(new BoundStatement[bStmnts.size()]))
                 .flatMap(session::executeReactive)
                 .flatMap(row -> {
@@ -48,7 +44,16 @@ public class App
                 .subscribe(row -> {
                     System.out.println("This is the after the second executeReactive "+row.getFormattedContents());
                 });
-            System.out.println("Second Flux");
+
+            Flux<Integer> rs =
+                Flux.just(bStmnts.toArray(new BoundStatement[bStmnts.size()]))
+                .flatMap(session::executeReactive)
+                .map(row -> {
+                    return row.getInt("clustering1");
+                })
+                .publish();
+
+            ReactiveResultSet something = session.executeReactive("SELECT * FROM profile_test.other_test WHERE pkey = "+rs.map(Objects::toString));
         }
     }
 }
