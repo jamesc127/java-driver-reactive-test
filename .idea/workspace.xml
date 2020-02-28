@@ -239,10 +239,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1582585200937" />
-    <state x="308" y="52" key="CommitChangelistDialog2" timestamp="1582829961775">
+    <state x="308" y="52" key="CommitChangelistDialog2" timestamp="1582906363940">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582829961775" />
+    <state x="308" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582906363940" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1582307479308">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -271,13 +271,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582830523180" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582829963730">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1582906341507">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582829963730" />
-    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582822286775">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582906341507" />
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582906354443">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1582822286775" />
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1582906354443" />
   </component>
 </project>
